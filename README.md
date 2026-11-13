@@ -34,7 +34,7 @@ java -version
 mvn -version
 ```
 
-该仓库为私有仓库，克隆需要具有访问权限的 GitHub 身份。
+
 
 ## 2. 准备数据库
 
