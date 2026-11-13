@@ -1,0 +1,49 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# 业务表格及临时快照
+/src/main/resources/static/*.xlsx
+/src/main/resources/static/snapshot-*.tmp
+
+# 本地运行数据及日志
+/data/
+/logs/
+*.log
+
+# 本地凭证配置
+.env
+.env.*
+!.env.example
+/src/main/resources/application-local.properties
+/src/main/resources/application-local.yml
+/src/main/resources/application-local.yaml
